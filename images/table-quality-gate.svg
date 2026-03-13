@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280">
+  <defs>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="280" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">quality-gate: 4エージェント並列レビュー</text>
+
+  <!-- Header row -->
+  <rect x="20" y="55" width="220" height="40" fill="url(#headerGrad4)"/>
+  <rect x="245" y="55" width="335" height="40" fill="url(#headerGrad4)"/>
+  <text x="130" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">エージェント</text>
+  <text x="412" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">観点</text>
+
+  <!-- correctness -->
+  <rect x="20" y="100" width="220" height="36" fill="#1e293b"/>
+  <rect x="245" y="100" width="335" height="36" fill="#1e293b"/>
+  <text x="130" y="124" text-anchor="middle" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">correctness-reviewer</text>
+  <text x="412" y="124" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">ロジックエラー、エッジケース</text>
+
+  <!-- performance -->
+  <rect x="20" y="140" width="220" height="36" fill="#172033"/>
+  <rect x="245" y="140" width="335" height="36" fill="#172033"/>
+  <text x="130" y="164" text-anchor="middle" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">performance-reviewer</text>
+  <text x="412" y="164" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">アルゴリズム効率、N+1問題</text>
+
+  <!-- security -->
+  <rect x="20" y="180" width="220" height="36" fill="#1e293b"/>
+  <rect x="245" y="180" width="335" height="36" fill="#1e293b"/>
+  <text x="130" y="204" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">security-reviewer</text>
+  <text x="412" y="204" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">入力検証、SQLi/XSS</text>
+
+  <!-- guidelines -->
+  <rect x="20" y="220" width="220" height="36" fill="#172033"/>
+  <rect x="245" y="220" width="335" height="36" fill="#172033"/>
+  <text x="130" y="244" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">guidelines-reviewer</text>
+  <text x="412" y="244" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">コーディング規約、命名</text>
+</svg>

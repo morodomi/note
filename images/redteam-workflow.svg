@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 180">
+  <defs>
+    <linearGradient id="reconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="attackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="reportGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="180" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">redteam-skills ワークフロー</text>
+
+  <!-- RECON -->
+  <rect x="30" y="70" width="130" height="60" rx="8" fill="url(#reconGrad)" filter="url(#shadow2)"/>
+  <text x="95" y="105" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">RECON</text>
+  <text x="95" y="122" text-anchor="middle" fill="#bfdbfe" font-family="system-ui, sans-serif" font-size="11">偵察</text>
+
+  <!-- Arrow 1 -->
+  <path d="M165 100 L195 100" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead2)"/>
+  <defs>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- SCAN -->
+  <rect x="200" y="70" width="130" height="60" rx="8" fill="url(#scanGrad)" filter="url(#shadow2)"/>
+  <text x="265" y="105" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">SCAN</text>
+  <text x="265" y="122" text-anchor="middle" fill="#fef3c7" font-family="system-ui, sans-serif" font-size="11">スキャン</text>
+
+  <!-- Arrow 2 -->
+  <path d="M335 100 L365 100" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead2)"/>
+
+  <!-- ATTACK -->
+  <rect x="370" y="70" width="130" height="60" rx="8" fill="url(#attackGrad)" filter="url(#shadow2)"/>
+  <text x="435" y="105" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">ATTACK</text>
+  <text x="435" y="122" text-anchor="middle" fill="#fecaca" font-family="system-ui, sans-serif" font-size="11">PoC検証</text>
+
+  <!-- Arrow 3 -->
+  <path d="M505 100 L535 100" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead2)"/>
+
+  <!-- REPORT -->
+  <rect x="540" y="70" width="130" height="60" rx="8" fill="url(#reportGrad)" filter="url(#shadow2)"/>
+  <text x="605" y="105" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">REPORT</text>
+  <text x="605" y="122" text-anchor="middle" fill="#bbf7d0" font-family="system-ui, sans-serif" font-size="11">レポート</text>
+
+  <!-- Subtitle -->
+  <text x="350" y="165" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="12">静的解析 + 動的検証による脆弱性検出</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">7フェーズTDD</text>
+
+  <!-- Header row -->
+  <rect x="20" y="55" width="140" height="40" fill="url(#headerGrad)"/>
+  <rect x="165" y="55" width="310" height="40" fill="url(#headerGrad)"/>
+  <rect x="480" y="55" width="300" height="40" fill="url(#headerGrad)"/>
+  <text x="90" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">フェーズ</text>
+  <text x="320" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">やること</text>
+  <text x="630" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">やってはいけないこと</text>
+
+  <!-- Data rows -->
+  <!-- INIT -->
+  <rect x="20" y="100" width="140" height="36" fill="#1e293b"/>
+  <rect x="165" y="100" width="310" height="36" fill="#1e293b"/>
+  <rect x="480" y="100" width="300" height="36" fill="#1e293b"/>
+  <text x="90" y="124" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">INIT</text>
+  <text x="320" y="124" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">サイクル開始、Cycle doc作成</text>
+  <text x="630" y="124" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">計画、テスト、実装</text>
+
+  <!-- PLAN -->
+  <rect x="20" y="140" width="140" height="36" fill="#172033"/>
+  <rect x="165" y="140" width="310" height="36" fill="#172033"/>
+  <rect x="480" y="140" width="300" height="36" fill="#172033"/>
+  <text x="90" y="164" text-anchor="middle" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">PLAN</text>
+  <text x="320" y="164" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">設計、Test List作成</text>
+  <text x="630" y="164" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">テスト、実装</text>
+
+  <!-- RED -->
+  <rect x="20" y="180" width="140" height="36" fill="#1e293b"/>
+  <rect x="165" y="180" width="310" height="36" fill="#1e293b"/>
+  <rect x="480" y="180" width="300" height="36" fill="#1e293b"/>
+  <text x="90" y="204" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">RED</text>
+  <text x="320" y="204" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">失敗するテスト作成</text>
+  <text x="630" y="204" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">実装コード変更</text>
+
+  <!-- GREEN -->
+  <rect x="20" y="220" width="140" height="36" fill="#172033"/>
+  <rect x="165" y="220" width="310" height="36" fill="#172033"/>
+  <rect x="480" y="220" width="300" height="36" fill="#172033"/>
+  <text x="90" y="244" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">GREEN</text>
+  <text x="320" y="244" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">最小限の実装</text>
+  <text x="630" y="244" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">リファクタリング</text>
+
+  <!-- REFACTOR -->
+  <rect x="20" y="260" width="140" height="36" fill="#1e293b"/>
+  <rect x="165" y="260" width="310" height="36" fill="#1e293b"/>
+  <rect x="480" y="260" width="300" height="36" fill="#1e293b"/>
+  <text x="90" y="284" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">REFACTOR</text>
+  <text x="320" y="284" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">コード品質改善</text>
+  <text x="630" y="284" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">新機能追加</text>
+
+  <!-- REVIEW -->
+  <rect x="20" y="300" width="140" height="36" fill="#172033"/>
+  <rect x="165" y="300" width="310" height="36" fill="#172033"/>
+  <rect x="480" y="300" width="300" height="36" fill="#172033"/>
+  <text x="90" y="324" text-anchor="middle" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">REVIEW</text>
+  <text x="320" y="324" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">品質チェック</text>
+  <text x="630" y="324" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">コード変更</text>
+
+  <!-- COMMIT -->
+  <rect x="20" y="340" width="140" height="36" fill="#1e293b"/>
+  <rect x="165" y="340" width="310" height="36" fill="#1e293b"/>
+  <rect x="480" y="340" width="300" height="36" fill="#1e293b"/>
+  <text x="90" y="364" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">COMMIT</text>
+  <text x="320" y="364" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">git commit</text>
+  <text x="630" y="364" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">新しい変更</text>
+</svg>

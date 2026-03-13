@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="collarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="railGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="parallelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="limitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="600" y="80" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="42" font-weight="bold">AI Development Evolution</text>
+  <text x="600" y="125" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="24">tdd-skills / redteam-skills</text>
+
+  <!-- Timeline line -->
+  <line x1="100" y1="350" x2="1100" y2="350" stroke="#475569" stroke-width="4" stroke-dasharray="12,6"/>
+
+  <!-- Stage 1: Collar -->
+  <g transform="translate(150, 220)">
+    <!-- Circle with dashed line (collar) -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="10,5"/>
+    <text x="60" y="65" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="16">AI</text>
+    <!-- Escape arrow -->
+    <path d="M110 40 C 140 20, 150 30, 160 60" stroke="#ef4444" stroke-width="3" fill="none"/>
+    <polygon points="158,55 168,62 160,68" fill="#ef4444"/>
+  </g>
+  <text x="210" y="380" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">Collar</text>
+  <text x="210" y="415" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="18">escapes</text>
+  <text x="210" y="445" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="14">CLAUDE.md</text>
+
+  <!-- Arrow 1 -->
+  <path d="M320 350 L380 350" stroke="#64748b" stroke-width="3" fill="none"/>
+  <polygon points="375,343 390,350 375,357" fill="#64748b"/>
+
+  <!-- Stage 2: Rail -->
+  <g transform="translate(400, 230)">
+    <!-- Rail tracks -->
+    <rect x="0" y="45" width="180" height="8" rx="2" fill="#22c55e"/>
+    <rect x="0" y="67" width="180" height="8" rx="2" fill="#22c55e"/>
+    <!-- AI on rail -->
+    <circle cx="90" cy="60" r="25" fill="#1e293b" stroke="#22c55e" stroke-width="3"/>
+    <text x="90" y="66" text-anchor="middle" fill="#22c55e" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">AI</text>
+    <!-- Movement arrow -->
+    <path d="M120 60 L160 60" stroke="#22c55e" stroke-width="2" fill="none"/>
+    <polygon points="155,54 168,60 155,66" fill="#22c55e"/>
+  </g>
+  <text x="490" y="380" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">Rail</text>
+  <text x="490" y="415" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="18">constrains</text>
+  <text x="490" y="445" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="14">Skills + allowed-tools</text>
+
+  <!-- Arrow 2 -->
+  <path d="M600 350 L660 350" stroke="#64748b" stroke-width="3" fill="none"/>
+  <polygon points="655,343 670,350 655,357" fill="#64748b"/>
+
+  <!-- Stage 3: Parallel -->
+  <g transform="translate(680, 210)">
+    <!-- Multiple agents -->
+    <circle cx="30" cy="50" r="22" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+    <circle cx="90" cy="50" r="22" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+    <circle cx="150" cy="50" r="22" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+    <text x="30" y="55" text-anchor="middle" fill="#3b82f6" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">A1</text>
+    <text x="90" y="55" text-anchor="middle" fill="#3b82f6" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">A2</text>
+    <text x="150" y="55" text-anchor="middle" fill="#3b82f6" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">A3</text>
+    <!-- Parallel arrows down -->
+    <path d="M30 75 L30 100" stroke="#3b82f6" stroke-width="2"/>
+    <path d="M90 75 L90 100" stroke="#3b82f6" stroke-width="2"/>
+    <path d="M150 75 L150 100" stroke="#3b82f6" stroke-width="2"/>
+    <polygon points="24,95 30,108 36,95" fill="#3b82f6"/>
+    <polygon points="84,95 90,108 96,95" fill="#3b82f6"/>
+    <polygon points="144,95 150,108 156,95" fill="#3b82f6"/>
+  </g>
+  <text x="770" y="380" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">Parallel</text>
+  <text x="770" y="415" text-anchor="middle" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="18">scales</text>
+  <text x="770" y="445" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="14">Multi-agent workers</text>
+
+  <!-- Arrow 3 -->
+  <path d="M880 350 L940 350" stroke="#64748b" stroke-width="3" fill="none"/>
+  <polygon points="935,343 950,350 935,357" fill="#64748b"/>
+
+  <!-- Stage 4: Limit (Human brain) -->
+  <g transform="translate(960, 220)">
+    <!-- Brain outline -->
+    <ellipse cx="80" cy="55" rx="55" ry="45" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <!-- Brain pattern -->
+    <path d="M50 45 Q 65 30, 80 45 Q 95 30, 110 45" stroke="#f59e0b" stroke-width="2" fill="none"/>
+    <path d="M45 60 Q 60 70, 80 60 Q 100 70, 115 60" stroke="#f59e0b" stroke-width="2" fill="none"/>
+    <text x="80" y="90" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12">Human</text>
+  </g>
+  <text x="1040" y="380" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">Limit</text>
+  <text x="1040" y="415" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="18">bottleneck</text>
+  <text x="1040" y="445" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="14">Human judgment</text>
+
+  <!-- Bottom tagline -->
+  <rect x="350" y="520" width="500" height="60" rx="8" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <text x="600" y="560" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="26" font-weight="bold">Better than nothing.</text>
+</svg>

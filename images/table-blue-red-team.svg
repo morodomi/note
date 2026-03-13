@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220">
+  <defs>
+    <linearGradient id="headerGradBR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="220" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">Blue Team vs Red Team</text>
+
+  <!-- Header row -->
+  <rect x="20" y="55" width="140" height="40" fill="url(#headerGradBR)"/>
+  <rect x="165" y="55" width="255" height="40" fill="#3b82f6"/>
+  <rect x="425" y="55" width="255" height="40" fill="#ef4444"/>
+  <text x="90" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">観点</text>
+  <text x="292" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">tdd-skills (Blue)</text>
+  <text x="552" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">redteam-skills (Red)</text>
+
+  <!-- Purpose -->
+  <rect x="20" y="100" width="140" height="36" fill="#1e293b"/>
+  <rect x="165" y="100" width="255" height="36" fill="#1e293b"/>
+  <rect x="425" y="100" width="255" height="36" fill="#1e293b"/>
+  <text x="90" y="124" text-anchor="middle" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="13">目的</text>
+  <text x="292" y="124" text-anchor="middle" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="12">開発品質の担保</text>
+  <text x="552" y="124" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">セキュリティ脆弱性の検出</text>
+
+  <!-- Approach -->
+  <rect x="20" y="140" width="140" height="36" fill="#172033"/>
+  <rect x="165" y="140" width="255" height="36" fill="#172033"/>
+  <rect x="425" y="140" width="255" height="36" fill="#172033"/>
+  <text x="90" y="164" text-anchor="middle" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="13">アプローチ</text>
+  <text x="292" y="164" text-anchor="middle" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="12">TDDサイクル + 並列レビュー</text>
+  <text x="552" y="164" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">静的解析 + 動的検証</text>
+
+  <!-- Output -->
+  <rect x="20" y="180" width="140" height="36" fill="#1e293b"/>
+  <rect x="165" y="180" width="255" height="36" fill="#1e293b"/>
+  <rect x="425" y="180" width="255" height="36" fill="#1e293b"/>
+  <text x="90" y="204" text-anchor="middle" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="13">成果物</text>
+  <text x="292" y="204" text-anchor="middle" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="12">テスト済みコード + Cycle doc</text>
+  <text x="552" y="204" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12">脆弱性レポート + E2Eテスト</text>
+</svg>

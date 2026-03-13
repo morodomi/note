@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 820">
+  <defs>
+    <linearGradient id="grayGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6b7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4b5563;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="820" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">tdd-orchestrate エージェント委譲フロー</text>
+
+  <!-- ===== PdM ===== -->
+  <rect x="250" y="55" width="300" height="48" rx="8" fill="url(#grayGrad)"/>
+  <text x="400" y="76" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">tdd-orchestrate</text>
+  <text x="400" y="94" text-anchor="middle" fill="#d1d5db" font-family="system-ui, sans-serif" font-size="11">(PdM / 統括)</text>
+
+  <!-- Arrow: PdM -> PLAN -->
+  <line x1="400" y1="103" x2="400" y2="130" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="418" y="121" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">委譲</text>
+
+  <!-- ===== PLAN ===== -->
+  <rect x="290" y="130" width="220" height="44" rx="8" fill="url(#blueGrad)"/>
+  <text x="400" y="150" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">PLAN</text>
+  <text x="400" y="166" text-anchor="middle" fill="#bfdbfe" font-family="system-ui, sans-serif" font-size="10">architect</text>
+
+  <!-- Arrow: PLAN -> plan-review -->
+  <line x1="400" y1="174" x2="400" y2="200" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ===== plan-review group ===== -->
+  <rect x="70" y="200" width="660" height="100" rx="10" fill="#f97316" fill-opacity="0.07"/>
+  <rect x="70" y="200" width="660" height="100" rx="10" fill="none" stroke="#f97316" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="400" y="220" text-anchor="middle" fill="#fb923c" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">plan-review (Agent Teams)</text>
+
+  <!-- Reviewer boxes -->
+  <rect x="105" y="232" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="190" y="254" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Scope</text>
+
+  <rect x="315" y="232" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="400" y="254" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Architecture</text>
+
+  <rect x="525" y="232" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="610" y="254" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Product</text>
+
+  <!-- Bidirectional arrows (polygon triangles) -->
+  <line x1="280" y1="250" x2="310" y2="250" stroke="#f97316" stroke-width="1.5"/>
+  <polygon points="280,246 288,250 280,254" fill="#f97316"/>
+  <polygon points="310,246 302,250 310,254" fill="#f97316"/>
+
+  <line x1="490" y1="250" x2="520" y2="250" stroke="#f97316" stroke-width="1.5"/>
+  <polygon points="490,246 498,250 490,254" fill="#f97316"/>
+  <polygon points="520,246 512,250 520,254" fill="#f97316"/>
+
+  <!-- Arrow: plan-review -> RED -->
+  <line x1="400" y1="300" x2="400" y2="325" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ===== RED ===== -->
+  <rect x="290" y="325" width="220" height="44" rx="8" fill="url(#redGrad)"/>
+  <text x="400" y="345" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">RED</text>
+  <text x="400" y="361" text-anchor="middle" fill="#fecaca" font-family="system-ui, sans-serif" font-size="10">red-worker</text>
+
+  <!-- Arrow: RED -> GREEN -->
+  <line x1="400" y1="369" x2="400" y2="393" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ===== GREEN ===== -->
+  <rect x="290" y="393" width="220" height="44" rx="8" fill="url(#greenGrad)"/>
+  <text x="400" y="413" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">GREEN</text>
+  <text x="400" y="429" text-anchor="middle" fill="#bbf7d0" font-family="system-ui, sans-serif" font-size="10">green-worker</text>
+
+  <!-- Arrow: GREEN -> REFACTOR -->
+  <line x1="400" y1="437" x2="400" y2="461" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ===== REFACTOR ===== -->
+  <rect x="290" y="461" width="220" height="44" rx="8" fill="url(#purpleGrad)"/>
+  <text x="400" y="481" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">REFACTOR</text>
+  <text x="400" y="497" text-anchor="middle" fill="#e9d5ff" font-family="system-ui, sans-serif" font-size="10">refactorer</text>
+
+  <!-- Arrow: REFACTOR -> quality-gate -->
+  <line x1="400" y1="505" x2="400" y2="530" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ===== quality-gate group ===== -->
+  <rect x="70" y="530" width="660" height="150" rx="10" fill="#f97316" fill-opacity="0.07"/>
+  <rect x="70" y="530" width="660" height="150" rx="10" fill="none" stroke="#f97316" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="400" y="550" text-anchor="middle" fill="#fb923c" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">quality-gate (Agent Teams)</text>
+
+  <!-- Row 1 -->
+  <rect x="105" y="562" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="190" y="584" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Correctness</text>
+
+  <rect x="315" y="562" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="400" y="584" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Performance</text>
+
+  <rect x="525" y="562" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="610" y="584" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Security</text>
+
+  <!-- Row 1 bidirectional arrows -->
+  <line x1="280" y1="580" x2="310" y2="580" stroke="#f97316" stroke-width="1.5"/>
+  <polygon points="280,576 288,580 280,584" fill="#f97316"/>
+  <polygon points="310,576 302,580 310,584" fill="#f97316"/>
+
+  <line x1="490" y1="580" x2="520" y2="580" stroke="#f97316" stroke-width="1.5"/>
+  <polygon points="490,576 498,580 490,584" fill="#f97316"/>
+  <polygon points="520,576 512,580 520,584" fill="#f97316"/>
+
+  <!-- Row 2 -->
+  <rect x="105" y="610" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="190" y="632" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Architecture</text>
+
+  <rect x="315" y="610" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="400" y="632" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Scope</text>
+
+  <rect x="525" y="610" width="170" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="610" y="632" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Guidelines</text>
+
+  <!-- Row 2 bidirectional arrows -->
+  <line x1="280" y1="628" x2="310" y2="628" stroke="#f97316" stroke-width="1.5"/>
+  <polygon points="280,624 288,628 280,632" fill="#f97316"/>
+  <polygon points="310,624 302,628 310,632" fill="#f97316"/>
+
+  <line x1="490" y1="628" x2="520" y2="628" stroke="#f97316" stroke-width="1.5"/>
+  <polygon points="490,624 498,628 490,632" fill="#f97316"/>
+  <polygon points="520,624 512,628 520,632" fill="#f97316"/>
+
+  <!-- Arrow: quality-gate -> result -->
+  <line x1="400" y1="680" x2="400" y2="706" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Result text -->
+  <text x="400" y="726" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">結果報告 → PdM が次フェーズを判断</text>
+
+  <!-- Legend -->
+  <line x1="180" y1="766" x2="210" y2="766" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="220" y="770" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">処理の流れ</text>
+
+  <line x1="400" y1="766" x2="430" y2="766" stroke="#f97316" stroke-width="1.5"/>
+  <polygon points="400,762 408,766 400,770" fill="#f97316"/>
+  <polygon points="430,762 422,766 430,770" fill="#f97316"/>
+  <text x="440" y="770" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">エージェント間通信 (Agent Teams)</text>
+</svg>

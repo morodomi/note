@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 280">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="750" height="280" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="375" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">人間 vs AIエージェント</text>
+
+  <!-- Header row -->
+  <rect x="20" y="55" width="160" height="40" fill="url(#headerGrad2)"/>
+  <rect x="185" y="55" width="260" height="40" fill="url(#headerGrad2)"/>
+  <rect x="450" y="55" width="280" height="40" fill="url(#headerGrad2)"/>
+  <text x="100" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">観点</text>
+  <text x="315" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">人間</text>
+  <text x="590" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">AIエージェント</text>
+
+  <!-- Motivation -->
+  <rect x="20" y="100" width="160" height="36" fill="#1e293b"/>
+  <rect x="185" y="100" width="260" height="36" fill="#1e293b"/>
+  <rect x="450" y="100" width="280" height="36" fill="#1e293b"/>
+  <text x="100" y="124" text-anchor="middle" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="13">モチベーション</text>
+  <text x="315" y="124" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12">早くグリーンを見たい</text>
+  <text x="590" y="124" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="12">関係ない</text>
+
+  <!-- Debugging -->
+  <rect x="20" y="140" width="160" height="36" fill="#172033"/>
+  <rect x="185" y="140" width="260" height="36" fill="#172033"/>
+  <rect x="450" y="140" width="280" height="36" fill="#172033"/>
+  <text x="100" y="164" text-anchor="middle" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="13">デバッグ</text>
+  <text x="315" y="164" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12">変更が多いと難しい</text>
+  <text x="590" y="164" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="12">ログで追跡可能</text>
+
+  <!-- Parallelization -->
+  <rect x="20" y="180" width="160" height="36" fill="#1e293b"/>
+  <rect x="185" y="180" width="260" height="36" fill="#1e293b"/>
+  <rect x="450" y="180" width="280" height="36" fill="#1e293b"/>
+  <text x="100" y="204" text-anchor="middle" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="13">並列化</text>
+  <text x="315" y="204" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12">1人では不可能</text>
+  <text x="590" y="204" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="12">複数エージェント同時実行可能</text>
+
+  <!-- Context -->
+  <rect x="20" y="220" width="160" height="36" fill="#172033"/>
+  <rect x="185" y="220" width="260" height="36" fill="#172033"/>
+  <rect x="450" y="220" width="280" height="36" fill="#172033"/>
+  <text x="100" y="244" text-anchor="middle" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="13">コンテキスト</text>
+  <text x="315" y="244" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12">忘れる</text>
+  <text x="590" y="244" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="12">Cycle docで維持</text>
+</svg>

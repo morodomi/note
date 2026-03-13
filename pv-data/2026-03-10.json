@@ -1,0 +1,80 @@
+{
+  "urlname": "note",
+  "fetchedAt": "2026-03-10T14:00:05.344Z",
+  "articles": [
+    {
+      "title": "暴走するAIを飼い慣らすまで9ヶ月。dev-crewを公開する",
+      "url": "https://note.com/morodomi/n/ne40fb866f9c6",
+      "pv": 64,
+      "likeCount": 0
+    },
+    {
+      "title": "Claude Codeで確定申告の漏れを見つけた話",
+      "url": "https://note.com/morodomi/n/nbea5cde5d73f",
+      "pv": 63,
+      "likeCount": 0
+    },
+    {
+      "title": "10個の自作スキルを捨ててClaude Codeのデフォルトに戻した",
+      "url": "https://note.com/morodomi/n/nd960ef99d0f3",
+      "pv": 36,
+      "likeCount": 2
+    },
+    {
+      "title": "コンテキストウィンドウは制約じゃない。フェーズの区切りだ",
+      "url": "https://note.com/morodomi/n/n55b4b658e80e",
+      "pv": 32,
+      "likeCount": 0
+    },
+    {
+      "title": "AIにセキュリティレビューさせるなら、防御側ではなく攻撃側をやらせろ",
+      "url": "https://note.com/morodomi/n/n99f7722c2e99",
+      "pv": 31,
+      "likeCount": 0
+    },
+    {
+      "title": "エディタがvimからClaude Codeに変わった",
+      "url": "https://note.com/morodomi/n/n0d9212702a04",
+      "pv": 28,
+      "likeCount": 0
+    },
+    {
+      "title": "Claude CodeにTDDを強制したら、AIが勝手にテストを書くようになった話",
+      "url": "https://note.com/morodomi/n/n5b089a48fe7b",
+      "pv": 25,
+      "likeCount": 1
+    },
+    {
+      "title": "確定申告のチェックをAIにやらせてみた",
+      "url": "https://note.com/morodomi/n/n9c8d373665d8",
+      "pv": 23,
+      "likeCount": 0
+    },
+    {
+      "title": "typo修正に4人のレビュアーは要らない。リスクベースレビューの設計",
+      "url": "https://note.com/morodomi/n/n00074c4f1d1e",
+      "pv": 23,
+      "likeCount": 0
+    },
+    {
+      "title": "LLMの自己改善にLLMは要らない。awkとgrepで十分だった",
+      "url": "https://note.com/morodomi/n/n5de541c88e41",
+      "pv": 21,
+      "likeCount": 0
+    },
+    {
+      "title": "壊して覚えるClaude Code入門",
+      "url": "https://note.com/morodomi/n/n1b9e77606bc5",
+      "pv": 21,
+      "likeCount": 1
+    },
+    {
+      "title": "テストの理想形を言語化したら、AIへの指示が変わった",
+      "url": "https://note.com/morodomi/n/nf9e820194410",
+      "pv": 17,
+      "likeCount": 0
+    }
+  ],
+  "totalPv": 384,
+  "totalLikes": 4
+}

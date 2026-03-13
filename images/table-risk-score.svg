@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <defs>
+    <linearGradient id="headerGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="250" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">リスクスコア</text>
+
+  <!-- Header row -->
+  <rect x="20" y="55" width="120" height="40" fill="url(#headerGrad3)"/>
+  <rect x="145" y="55" width="120" height="40" fill="url(#headerGrad3)"/>
+  <rect x="270" y="55" width="310" height="40" fill="url(#headerGrad3)"/>
+  <text x="80" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">スコア</text>
+  <text x="205" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">判定</text>
+  <text x="425" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">動作</text>
+
+  <!-- PASS -->
+  <rect x="20" y="100" width="120" height="40" fill="#1e293b"/>
+  <rect x="145" y="100" width="120" height="40" fill="#1e293b"/>
+  <rect x="270" y="100" width="310" height="40" fill="#1e293b"/>
+  <text x="80" y="126" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">0-29</text>
+  <rect x="160" y="108" width="90" height="24" rx="4" fill="#22c55e"/>
+  <text x="205" y="126" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">PASS</text>
+  <text x="425" y="126" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">そのまま進む</text>
+
+  <!-- WARN -->
+  <rect x="20" y="145" width="120" height="40" fill="#172033"/>
+  <rect x="145" y="145" width="120" height="40" fill="#172033"/>
+  <rect x="270" y="145" width="310" height="40" fill="#172033"/>
+  <text x="80" y="171" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">30-59</text>
+  <rect x="160" y="153" width="90" height="24" rx="4" fill="#f59e0b"/>
+  <text x="205" y="171" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">WARN</text>
+  <text x="425" y="171" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">簡易確認の質問</text>
+
+  <!-- BLOCK -->
+  <rect x="20" y="190" width="120" height="40" fill="#1e293b"/>
+  <rect x="145" y="190" width="120" height="40" fill="#1e293b"/>
+  <rect x="270" y="190" width="310" height="40" fill="#1e293b"/>
+  <text x="80" y="216" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">60-100</text>
+  <rect x="160" y="198" width="90" height="24" rx="4" fill="#ef4444"/>
+  <text x="205" y="216" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">BLOCK</text>
+  <text x="425" y="216" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">詳細なヒアリング</text>
+</svg>

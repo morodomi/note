@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520">
+  <defs>
+    <linearGradient id="headerGrad5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="520" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">redteam-skills: 攻撃エージェント</text>
+
+  <!-- Header row -->
+  <rect x="20" y="55" width="200" height="40" fill="url(#headerGrad5)"/>
+  <rect x="225" y="55" width="355" height="40" fill="url(#headerGrad5)"/>
+  <text x="120" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">エージェント</text>
+  <text x="402" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">対象</text>
+
+  <!-- injection -->
+  <rect x="20" y="100" width="200" height="36" fill="#1e293b"/>
+  <rect x="225" y="100" width="355" height="36" fill="#1e293b"/>
+  <text x="120" y="124" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">injection-attacker</text>
+  <text x="402" y="124" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">SQL/Command Injection</text>
+
+  <!-- xss -->
+  <rect x="20" y="140" width="200" height="36" fill="#172033"/>
+  <rect x="225" y="140" width="355" height="36" fill="#172033"/>
+  <text x="120" y="164" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">xss-attacker</text>
+  <text x="402" y="164" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Reflected/Stored/DOM XSS</text>
+
+  <!-- auth -->
+  <rect x="20" y="180" width="200" height="36" fill="#1e293b"/>
+  <rect x="225" y="180" width="355" height="36" fill="#1e293b"/>
+  <text x="120" y="204" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">auth-attacker</text>
+  <text x="402" y="204" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">認証バイパス、JWT脆弱性</text>
+
+  <!-- api -->
+  <rect x="20" y="220" width="200" height="36" fill="#172033"/>
+  <rect x="225" y="220" width="355" height="36" fill="#172033"/>
+  <text x="120" y="244" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">api-attacker</text>
+  <text x="402" y="244" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">BOLA/BFLA/Mass Assignment</text>
+
+  <!-- file -->
+  <rect x="20" y="260" width="200" height="36" fill="#1e293b"/>
+  <rect x="225" y="260" width="355" height="36" fill="#1e293b"/>
+  <text x="120" y="284" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">file-attacker</text>
+  <text x="402" y="284" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Path Traversal、LFI</text>
+
+  <!-- ssrf -->
+  <rect x="20" y="300" width="200" height="36" fill="#172033"/>
+  <rect x="225" y="300" width="355" height="36" fill="#172033"/>
+  <text x="120" y="324" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">ssrf-attacker</text>
+  <text x="402" y="324" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">SSRF、クラウドメタデータ</text>
+
+  <!-- csrf -->
+  <rect x="20" y="340" width="200" height="36" fill="#1e293b"/>
+  <rect x="225" y="340" width="355" height="36" fill="#1e293b"/>
+  <text x="120" y="364" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">csrf-attacker</text>
+  <text x="402" y="364" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">CSRF</text>
+
+  <!-- ssti -->
+  <rect x="20" y="380" width="200" height="36" fill="#172033"/>
+  <rect x="225" y="380" width="355" height="36" fill="#172033"/>
+  <text x="120" y="404" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">ssti-attacker</text>
+  <text x="402" y="404" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Server-Side Template Injection</text>
+
+  <!-- xxe -->
+  <rect x="20" y="420" width="200" height="36" fill="#1e293b"/>
+  <rect x="225" y="420" width="355" height="36" fill="#1e293b"/>
+  <text x="120" y="444" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">xxe-attacker</text>
+  <text x="402" y="444" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">XML External Entity</text>
+
+  <!-- sca -->
+  <rect x="20" y="460" width="200" height="36" fill="#172033"/>
+  <rect x="225" y="460" width="355" height="36" fill="#172033"/>
+  <text x="120" y="484" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">sca-attacker</text>
+  <text x="402" y="484" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">依存関係の既知CVE</text>
+</svg>

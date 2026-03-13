@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 280">
+  <defs>
+    <linearGradient id="headerGradRT" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="750" height="280" fill="#0f172a"/>
+
+  <!-- Title -->
+  <text x="375" y="35" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">redteam-skills: フェーズ詳細</text>
+
+  <!-- Header row -->
+  <rect x="20" y="55" width="120" height="40" fill="url(#headerGradRT)"/>
+  <rect x="145" y="55" width="320" height="40" fill="url(#headerGradRT)"/>
+  <rect x="470" y="55" width="260" height="40" fill="url(#headerGradRT)"/>
+  <text x="80" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">フェーズ</text>
+  <text x="305" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">内容</text>
+  <text x="600" y="82" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">エージェント</text>
+
+  <!-- RECON -->
+  <rect x="20" y="100" width="120" height="36" fill="#1e293b"/>
+  <rect x="145" y="100" width="320" height="36" fill="#1e293b"/>
+  <rect x="470" y="100" width="260" height="36" fill="#1e293b"/>
+  <text x="80" y="124" text-anchor="middle" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">RECON</text>
+  <text x="305" y="124" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">偵察・情報収集、エンドポイント列挙</text>
+  <text x="600" y="124" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">recon-agent</text>
+
+  <!-- SCAN -->
+  <rect x="20" y="140" width="120" height="36" fill="#172033"/>
+  <rect x="145" y="140" width="320" height="36" fill="#172033"/>
+  <rect x="470" y="140" width="260" height="36" fill="#172033"/>
+  <text x="80" y="164" text-anchor="middle" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">SCAN</text>
+  <text x="305" y="164" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">脆弱性スキャン（静的解析）</text>
+  <text x="600" y="164" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">各attacker並列実行</text>
+
+  <!-- ATTACK -->
+  <rect x="20" y="180" width="120" height="36" fill="#1e293b"/>
+  <rect x="145" y="180" width="320" height="36" fill="#1e293b"/>
+  <rect x="470" y="180" width="260" height="36" fill="#1e293b"/>
+  <text x="80" y="204" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">ATTACK</text>
+  <text x="305" y="204" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">PoC検証（動的検証）</text>
+  <text x="600" y="204" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">dynamic-verifier</text>
+
+  <!-- REPORT -->
+  <rect x="20" y="220" width="120" height="36" fill="#172033"/>
+  <rect x="145" y="220" width="320" height="36" fill="#172033"/>
+  <rect x="470" y="220" width="260" height="36" fill="#172033"/>
+  <text x="80" y="244" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">REPORT</text>
+  <text x="305" y="244" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">脆弱性レポート + E2Eテスト生成</text>
+  <text x="600" y="244" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">attack-report</text>
+</svg>
