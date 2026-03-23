@@ -1,9 +1,28 @@
-# note記事管理
+@AGENTS.md
 
-## 概要
+# note (Claude Code Extensions)
 
-note.com/morodomi の記事管理ディレクトリ。
-記事のドラフトをmdで作成し、noteにアップする。
+## AI Behavior Principles
+
+### Role: PdM (Product Manager)
+
+計画・調整・確認に徹し、実装は委譲。
+
+### Mandatory: AskUserQuestion
+
+曖昧な要件は全てヒアリング。
+
+### Delegation Strategy
+
+CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 → Agent Teams、それ以外 → 並行Subagent。
+
+### Delegation Rules
+
+- 実装 → green-worker に委譲
+- テスト → red-worker に委譲
+- 設計 → architect に委譲
+- レビュー → reviewer に委譲
+- 曖昧 → AskUserQuestion で確認
 
 ## ルール
 
@@ -13,24 +32,30 @@ note.com/morodomi の記事管理ディレクトリ。
 - ドラフト完成後、noteに手動アップ
 - 公開済み記事は archives/ に移動する
 
-## プロジェクト構造
+## ワークフロー
 
-```
-note/
-├── CLAUDE.md              # プロジェクト設定
-├── YYYYMMDD_タイトル.md   # 執筆中・未公開の記事
-├── archives/              # 公開済み記事
-├── docs/
-│   ├── ネタ/              # ネタ候補ストック
-│   ├── cycles/            # 記事作成サイクル
-│   └── *.md               # 調査・分析資料
-└── images/                # サムネイル・記事用画像
-```
+記事作成はnote-skillsパイプラインで管理する。
+
+| スキル | 用途 |
+|--------|------|
+| `/note-seed` | ネタ候補の自動抽出 |
+| `/note-research` | テーマの調査・情報収集 |
+| `/note-draft` | ドラフト作成（対話式） |
+| `/note-review` | 推敲レビュー（8観点並列） |
+| `/note-rewrite` | レビュー指摘の自動反映 |
+| `/note-pipeline` | 上記を一気通貫実行 |
+| `/note-track` | PV・スキ数の記録 |
+| `/note-publish` | noteへの自動投稿 |
 
 ## 記事一覧
 
 | 日付 | タイトル | URL | PV | スキ | 記録日 |
 |------|---------|-----|----|------|--------|
+| 2026-03-23 | 4つのAIに同じ設計判断を聞いたら、全員違うことを言った | https://note.com/morodomi/n/n487424b2359b | - | - | - |
+| 2026-03-16 | AIは理由を探している。README.mdでは足りなかった | https://note.com/morodomi/n/n68627932f546 | - | - | - |
+| 2026-03-16 | AIは私のコードではなく、働き方を読んでいた。insightsで見えた弱点 | https://note.com/morodomi/n/n4d67a6a8e8b9 | - | - | - |
+| 2026-03-13 | もし今、私が入社試験を設計するなら | draft | - | - | - |
+| 2026-03-13 | exspecでAIが書くテストの欠陥を見つける | draft | - | - | - |
 | 2026-03-13 | チャットAIを使っていたら、開発ワークフローの方が作り変わった | https://note.com/morodomi/n/nd1855519eabe | - | - | - |
 | 2026-03-12 | AIが書くテストは動く。でも「仕様」として読めるか？ | https://note.com/morodomi/n/naf2a2dcf7c31 | - | - | - |
 | 2026-03-11 | コードレビューが死んだので、製造業の品質保証に乗り換えた | https://note.com/morodomi/n/ne098fe888c8e | - | - | - |
@@ -74,30 +99,6 @@ note/
 | 2025-07-11 | AIが壊したプロジェクトを、AIで作り直し、また壊される無限ループの住人 | https://note.com/morodomi/n/naf727f5351cd | 63 | 1 | 2026-02-26 |
 | 2023-11-13 | CloudFront配下でLaravelがhttpsにならない問題 | https://note.com/morodomi/n/n039a1427c995 | 954 | 1 | 2026-02-26 |
 
-## ワークフロー
-
-記事作成はnote-skillsパイプラインで管理する。
-
-| スキル | 用途 |
-|--------|------|
-| `/note-seed` | ネタ候補の自動抽出 |
-| `/note-research` | テーマの調査・情報収集 |
-| `/note-draft` | ドラフト作成（対話式） |
-| `/note-review` | 推敲レビュー（8観点並列） |
-| `/note-rewrite` | レビュー指摘の自動反映 |
-| `/note-pipeline` | 上記を一気通貫実行 |
-| `/note-track` | PV・スキ数の記録 |
-| `/note-publish` | noteへの自動投稿 |
-
-## 品質基準
-
-| 観点 | 基準 |
-|------|------|
-| AI臭 | 人間が最終チェック（noteアップ前） |
-| 推敲 | note-review 8観点で並列レビュー |
-| タイトル | 具体的、数字or固有名詞入り |
-| 冒頭 | 3行以内で「何の話か」わかる |
-
 ## Documentation
 
 | ファイル | 内容 |
@@ -106,3 +107,11 @@ note/
 | `docs/cycles/` | 記事作成サイクル |
 | `docs/20260204_note公式分析まとめ.md` | note公式の分析 |
 | `docs/20260211_note-skills改善検討.md` | パイプライン改善検討 |
+
+## Codex Integration
+
+- `codex exec --full-auto`: 非対話実行
+- `codex exec resume --last --full-auto`: セッション継続（cwdフィルタ）
+- `codex review` は使わない
+
+**Auto-orchestrate after plan approve**: The `## Post-Approve Action` section in plan files persists in compressed context after compact. This triggers /orchestrate automatically after compact + accept edits on transition.
