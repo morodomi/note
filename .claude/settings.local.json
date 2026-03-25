@@ -53,7 +53,13 @@
       "WebFetch(domain:claudelog.com)",
       "WebFetch(domain:tldraw.dev)",
       "Bash(curl -s -L \"https://tldraw.dev/blog/stay-away-from-my-trash\" | sed -n '/<article/,/<\\\\/article/p' | head -200)",
-      "Bash(curl -s -L \"https://tldraw.dev/blog/stay-away-from-my-trash\" | grep -i -E \"AI|pull request|PR|contributor|close|vibe|slop\" | head -30)"
+      "Bash(curl -s -L \"https://tldraw.dev/blog/stay-away-from-my-trash\" | grep -i -E \"AI|pull request|PR|contributor|close|vibe|slop\" | head -30)",
+      "Read(//Users/morodomi/.claude/plugins/**)",
+      "Read(//Users/morodomi/.claude/**)",
+      "Bash(mkdir -p .agents/skills && ln -s ~/.claude/plugins/cache/note-skills/note-skills/a59385ca35bd/skills/* .agents/skills/)",
+      "Skill(dev-crew:onboard)",
+      "Bash(find /Users/morodomi -path *Obsidian* -name Daily -type d)",
+      "Bash(find /Users/morodomi/Documents -name 2026-03*.md)"
     ]
   }
 }

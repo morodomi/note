@@ -1,0 +1,351 @@
+{
+  "urlname": "note",
+  "fetchedAt": "2026-03-24T14:00:07.664Z",
+  "period": "all_time",
+  "articles": [
+    {
+      "title": "Claude Codeで確定申告の漏れを見つけた話",
+      "url": "https://note.com/morodomi/n/nbea5cde5d73f",
+      "pv": 1213,
+      "likeCount": 16
+    },
+    {
+      "title": "CloudFront配下でLaravelがhttpsにならない問題",
+      "url": "https://note.com/morodomi/n/n039a1427c995",
+      "pv": 960,
+      "likeCount": 1
+    },
+    {
+      "title": "shapez2: 12レーン ペイントのブループリント",
+      "url": "https://note.com/morodomi/n/n1321814c2cb2",
+      "pv": 668,
+      "likeCount": 0
+    },
+    {
+      "title": "Lambdaで動くLaravelからSQSにJobを投げた",
+      "url": "https://note.com/morodomi/n/nf597b2d4ffd0",
+      "pv": 595,
+      "likeCount": 6
+    },
+    {
+      "title": "Claude CodeにTDDを強制したら、AIが勝手にテストを書くようになった話",
+      "url": "https://note.com/morodomi/n/n5b089a48fe7b",
+      "pv": 396,
+      "likeCount": 6
+    },
+    {
+      "title": "Laravel 11 でお問い合わせ機能を作った時に Mail::raw のテストにハマった話",
+      "url": "https://note.com/morodomi/n/n595e83f7ac42",
+      "pv": 243,
+      "likeCount": 0
+    },
+    {
+      "title": "shapez2: 12レーン 左右に分割するブループリント",
+      "url": "https://note.com/morodomi/n/n4d256407b0c2",
+      "pv": 224,
+      "likeCount": 0
+    },
+    {
+      "title": "エディタがvimからClaude Codeに変わった",
+      "url": "https://note.com/morodomi/n/n0d9212702a04",
+      "pv": 189,
+      "likeCount": 4
+    },
+    {
+      "title": "Claudeはこっそり無駄コードを生成し、バレて嘘をついた",
+      "url": "https://note.com/morodomi/n/n1ca3c4a25097",
+      "pv": 163,
+      "likeCount": 2
+    },
+    {
+      "title": "確定申告のチェックをAIにやらせてみた",
+      "url": "https://note.com/morodomi/n/n9c8d373665d8",
+      "pv": 162,
+      "likeCount": 1
+    },
+    {
+      "title": "Claude Codeが暴走しなくなった。tdd-skillsで1チケットを処理する流れ",
+      "url": "https://note.com/morodomi/n/ne28b6c06db69",
+      "pv": 160,
+      "likeCount": 1
+    },
+    {
+      "title": "署名付きCookieのローカル開発",
+      "url": "https://note.com/morodomi/n/n0582af287a2e",
+      "pv": 151,
+      "likeCount": 3
+    },
+    {
+      "title": "Flask アプリを CloudFront + API Gateway + Lambda (Zappa) でデプロイし、CSRF トークンが弾かれた話",
+      "url": "https://note.com/morodomi/n/ne4992d8f78e1",
+      "pv": 134,
+      "likeCount": 1
+    },
+    {
+      "title": "Claude Codeに褒められたけど提案は全却下した",
+      "url": "https://note.com/morodomi/n/n6a9c562de2e2",
+      "pv": 131,
+      "likeCount": 1
+    },
+    {
+      "title": "私はただの承認ボタンだった - AI駆動開発という夢の終着点",
+      "url": "https://note.com/morodomi/n/n3b30c9840417",
+      "pv": 125,
+      "likeCount": 2
+    },
+    {
+      "title": "Claude Codeのスキル、作らないのは損してる",
+      "url": "https://note.com/morodomi/n/nd98871405ce8",
+      "pv": 116,
+      "likeCount": 3
+    },
+    {
+      "title": "TDDをClaude Codeに任せる、Agent Teamsで変わったこと",
+      "url": "https://note.com/morodomi/n/nbf0dcbd045f1",
+      "pv": 110,
+      "likeCount": 1
+    },
+    {
+      "title": "AIがジュニアの仕事を奪い始めた今、新卒エンジニアが狙うべき「穴場」",
+      "url": "https://note.com/morodomi/n/n921afb8ba02c",
+      "pv": 108,
+      "likeCount": 8
+    },
+    {
+      "title": "10個の自作スキルを捨ててClaude Codeのデフォルトに戻した",
+      "url": "https://note.com/morodomi/n/nd960ef99d0f3",
+      "pv": 98,
+      "likeCount": 4
+    },
+    {
+      "title": "AWS Bedrock gpt-oss-120bでTool利用時の3つのエラーと解決方法",
+      "url": "https://note.com/morodomi/n/n9e819e437d62",
+      "pv": 82,
+      "likeCount": 2
+    },
+    {
+      "title": "計画の検証は人間がするべきか？",
+      "url": "https://note.com/morodomi/n/n5586e4bc2f3b",
+      "pv": 79,
+      "likeCount": 3
+    },
+    {
+      "title": "レビューはSubagent、実装はAgent Teams",
+      "url": "https://note.com/morodomi/n/n7069743cc7e0",
+      "pv": 70,
+      "likeCount": 1
+    },
+    {
+      "title": "暴走するAIを飼い慣らすまで9ヶ月。dev-crewを公開する",
+      "url": "https://note.com/morodomi/n/ne40fb866f9c6",
+      "pv": 65,
+      "likeCount": 0
+    },
+    {
+      "title": "1,743行のGod Moduleを94個のファイルに分割して気づいた真実",
+      "url": "https://note.com/morodomi/n/n322d123b003d",
+      "pv": 64,
+      "likeCount": 2
+    },
+    {
+      "title": "AIが壊したプロジェクトを、AIで作り直し、また壊される無限ループの住人",
+      "url": "https://note.com/morodomi/n/naf727f5351cd",
+      "pv": 64,
+      "likeCount": 1
+    },
+    {
+      "title": "生成AI時代のフレームワーク選定基準が変わってきた話",
+      "url": "https://note.com/morodomi/n/nf385a40befd5",
+      "pv": 59,
+      "likeCount": 1
+    },
+    {
+      "title": "ミスの指摘は、人より機械からがいい",
+      "url": "https://note.com/morodomi/n/n0f4bd484a181",
+      "pv": 59,
+      "likeCount": 1
+    },
+    {
+      "title": "AIで全員90点の時代、差がつくのは語彙力かな？",
+      "url": "https://note.com/morodomi/n/nb848ca69b1fc",
+      "pv": 58,
+      "likeCount": 3
+    },
+    {
+      "title": "GUIをやめたらAWS設定ミスが消えた",
+      "url": "https://note.com/morodomi/n/n2cadd27e61d9",
+      "pv": 57,
+      "likeCount": 0
+    },
+    {
+      "title": "「そうですね」しか言わないAIに、反論を義務づけた",
+      "url": "https://note.com/morodomi/n/n4f0533f2ce78",
+      "pv": 57,
+      "likeCount": 2
+    },
+    {
+      "title": "Enterキーを押すたびにプロジェクトが死ぬ - 108個のテストがもたらした絶望",
+      "url": "https://note.com/morodomi/n/nd831d0b856aa",
+      "pv": 54,
+      "likeCount": 1
+    },
+    {
+      "title": "週1の技術顧問で、採用の悪循環を断ち切る",
+      "url": "https://note.com/morodomi/n/n9ec231eb1ecd",
+      "pv": 52,
+      "likeCount": 1
+    },
+    {
+      "title": "生成AIへの質問内容",
+      "url": "https://note.com/morodomi/n/nf55e3e8d1136",
+      "pv": 50,
+      "likeCount": 4
+    },
+    {
+      "title": "AIの首輪はすぐ抜ける",
+      "url": "https://note.com/morodomi/n/n20787aa82620",
+      "pv": 50,
+      "likeCount": 2
+    },
+    {
+      "title": "大手がAIで新卒を絞る今、地方中小企業に採用チャンスが来ている",
+      "url": "https://note.com/morodomi/n/n0d75ba61ae9b",
+      "pv": 46,
+      "likeCount": 4
+    },
+    {
+      "title": "壊して覚えるClaude Code入門",
+      "url": "https://note.com/morodomi/n/n1b9e77606bc5",
+      "pv": 45,
+      "likeCount": 2
+    },
+    {
+      "title": "履歴をきれいにする機能が履歴を破壊した日 - 82個のバックアップタグの悲劇",
+      "url": "https://note.com/morodomi/n/n87c6e5dbbaf9",
+      "pv": 44,
+      "likeCount": 1
+    },
+    {
+      "title": "ゲーム時間をポイント制にしたら、9歳が腕立て10回できるようになった",
+      "url": "https://note.com/morodomi/n/nccedc0a60ba8",
+      "pv": 41,
+      "likeCount": 5
+    },
+    {
+      "title": "AIに首輪はつけられない。だからレールを敷いて、セキュリティゲートも置いた",
+      "url": "https://note.com/morodomi/n/n81f0dbee09b6",
+      "pv": 39,
+      "likeCount": 0
+    },
+    {
+      "title": "AIと同じ動き方をする新卒が生き残る",
+      "url": "https://note.com/morodomi/n/n33f5599a2fec",
+      "pv": 37,
+      "likeCount": 2
+    },
+    {
+      "title": "コードレビューが死んだので、製造業の品質保証に乗り換えた",
+      "url": "https://note.com/morodomi/n/ne098fe888c8e",
+      "pv": 37,
+      "likeCount": 1
+    },
+    {
+      "title": "コンテキストウィンドウは制約じゃない。フェーズの区切りだ",
+      "url": "https://note.com/morodomi/n/n55b4b658e80e",
+      "pv": 36,
+      "likeCount": 1
+    },
+    {
+      "title": "テストの理想形を言語化したら、AIへの指示が変わった",
+      "url": "https://note.com/morodomi/n/nf9e820194410",
+      "pv": 35,
+      "likeCount": 0
+    },
+    {
+      "title": "AIにセキュリティレビューさせるなら、防御側ではなく攻撃側をやらせろ",
+      "url": "https://note.com/morodomi/n/n99f7722c2e99",
+      "pv": 34,
+      "likeCount": 0
+    },
+    {
+      "title": "チャットAIを使っていたら、開発ワークフローの方が作り変わった",
+      "url": "https://note.com/morodomi/n/nd1855519eabe",
+      "pv": 34,
+      "likeCount": 4
+    },
+    {
+      "title": "LLMの自己改善にLLMは要らない。awkとgrepで十分だった",
+      "url": "https://note.com/morodomi/n/n5de541c88e41",
+      "pv": 29,
+      "likeCount": 0
+    },
+    {
+      "title": "コード0行でCLI完成。Claude Codeとの1時間の開発記録",
+      "url": "https://note.com/morodomi/n/n546767bb1135",
+      "pv": 28,
+      "likeCount": 0
+    },
+    {
+      "title": "Claude Codeのルール管理が破綻した。AIに自分で学ばせた話",
+      "url": "https://note.com/morodomi/n/nd572c0e80d77",
+      "pv": 28,
+      "likeCount": 1
+    },
+    {
+      "title": "AIが書くテストは動く。でも「仕様」として読めるか？",
+      "url": "https://note.com/morodomi/n/naf2a2dcf7c31",
+      "pv": 27,
+      "likeCount": 0
+    },
+    {
+      "title": "死ぬのはSaaSじゃなくて自作SaaSのほうだった",
+      "url": "https://note.com/morodomi/n/na3931db69c0f",
+      "pv": 25,
+      "likeCount": 1
+    },
+    {
+      "title": "typo修正に4人のレビュアーは要らない。リスクベースレビューの設計",
+      "url": "https://note.com/morodomi/n/n00074c4f1d1e",
+      "pv": 24,
+      "likeCount": 0
+    },
+    {
+      "title": "N+1問題はORMの話だと思っていた。166クエリを5に減らすまでの記録",
+      "url": "https://note.com/morodomi/n/nc75415d248c0",
+      "pv": 22,
+      "likeCount": 0
+    },
+    {
+      "title": "AIは私のコードではなく、働き方を読んでいた。insightsで見えた弱点",
+      "url": "https://note.com/morodomi/n/n4d67a6a8e8b9",
+      "pv": 17,
+      "likeCount": 1
+    },
+    {
+      "title": "AIは理由を探している。README.mdでは足りなかった",
+      "url": "https://note.com/morodomi/n/n68627932f546",
+      "pv": 17,
+      "likeCount": 0
+    },
+    {
+      "title": "4つのAIに同じ設計判断を聞いたら、全員違うことを言った",
+      "url": "https://note.com/morodomi/n/n487424b2359b",
+      "pv": 16,
+      "likeCount": 3
+    },
+    {
+      "title": "AIが書いた942テストをexspecで点検したら、813件の地雷が出た",
+      "url": "https://note.com/morodomi/n/n115cb7f5f7b6",
+      "pv": 11,
+      "likeCount": 0
+    },
+    {
+      "title": "AIが書いたテストを静的解析したら、誤検知との戦いが始まった",
+      "url": "https://note.com/morodomi/n/n83223ea8b882",
+      "pv": 8,
+      "likeCount": 0
+    }
+  ],
+  "totalPv": 7546,
+  "totalLikes": 110
+}
