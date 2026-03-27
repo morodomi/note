@@ -51,8 +51,9 @@ CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 → Agent Teams、それ以外 → 並行
 
 | 日付 | タイトル | URL | PV | スキ | 記録日 |
 |------|---------|-----|----|------|--------|
+| 2026-03-26 | 「ヤバい」しか言えないのはヤバい。AI時代の子育て論 | https://note.com/morodomi/n/n1788726a7a86 | - | - | - |
 | 2026-03-25 | AIに反論させたら、理論武装が始まった。その先でやったこと | https://note.com/morodomi/n/ndeaebd73afc6 | - | - | - |
-| 2026-03-24 | AIに何も指示せずコードを書かせたら半年後に破綻した | draft | - | - | - |
+| 2026-03-24 | AIに何も指示せずコードを書かせたら2ヶ月で破綻した | https://note.com/morodomi/n/n629fedb3bc43 | - | - | - |
 | 2026-03-23 | 4つのAIに同じ設計判断を聞いたら、全員違うことを言った | https://note.com/morodomi/n/n487424b2359b | 16 | 3 | 2026-03-25 |
 | 2026-03-16 | AIは理由を探している。README.mdでは足りなかった | https://note.com/morodomi/n/n68627932f546 | 17 | 0 | 2026-03-25 |
 | 2026-03-16 | AIは私のコードではなく、働き方を読んでいた。insightsで見えた弱点 | https://note.com/morodomi/n/n4d67a6a8e8b9 | 17 | 1 | 2026-03-25 |
