@@ -2,3 +2,4 @@
 .agents/
 data/
 *.backup.*
+.claude/settings.local.json
