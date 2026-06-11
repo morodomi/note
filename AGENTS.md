@@ -57,9 +57,10 @@ spec → sync-plan → plan-review → RED → GREEN → REFACTOR → REVIEW →
 
 ## 執筆ルール
 
-- 関連記事リンクはHTMLコメントではなく `<a>` タグで記述する（note-publisherがHTMLコメントを除去してからペーストするため）
-- リンク形式: `<a href="URL">タイトル</a>`
-- URL直書きは使わない（noteエディタで表示されない）
+- リンクはMarkdown形式 `[テキスト](URL)` で記述する（note-publisherがこの形式のみリンクとして認識し、HTMLペーストでクリック可能なリンクに変換する）
+- 生 `<a>` タグは使わない（パースされず、タグ文字列がそのまま記事に表示される）
+- URL直書きは使わない（リンクにならない）
+- note.comのリンクカード/リッチ埋め込み・画像埋め込み `![]()` はCLI非対応（必要なら公開後に手動）
 
 ## Quality Standards
 

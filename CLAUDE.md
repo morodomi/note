@@ -51,6 +51,9 @@ CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 → Agent Teams、それ以外 → 並行
 
 | 日付 | タイトル | URL | PV | スキ | 記録日 |
 |------|---------|-----|----|------|--------|
+| 2026-06-11 | エンジニアに盾はない。1万時間でコードを書いた後のキャリア戦略 | https://note.com/morodomi/n/n538fec2eb2f9 | - | - | - |
+| 2026-06-08 | 10歳の息子に、月1回の授業を始めることにした。初回は「自律と恥」 | draft | - | - | - |
+| 2026-04-13 | AIが来たら、Waterfallが戻ってきた（と思ったらAgileだった） | https://note.com/morodomi/n/n4f116f0b5325 | - | - | - |
 | 2026-04-10 | TDDを入れてもAIは迷走した。足りなかったのはハーネス設計だった | https://note.com/morodomi/n/ned2a1501df86 | - | - | - |
 | 2026-04-09 | 45,000テストに自作lintをぶつけたら誤検知だらけだった | https://note.com/morodomi/n/n4e0f15a43afa | - | - | - |
 | 2026-03-27 | 4つのAIに戦略レビューを頼んだら、1つだけ致命的な欠陥を見つけた | https://note.com/morodomi/n/ndc100b7477f2 | 13 | 1 | 2026-04-09 |
