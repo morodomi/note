@@ -51,6 +51,12 @@ CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 → Agent Teams、それ以外 → 並行
 
 | 日付 | タイトル | URL | PV | スキ | 記録日 |
 |------|---------|-----|----|------|--------|
+| 2026-08-27 | 「面倒くさい」はやめる理由になるか。10歳への月1授業で、親のほうが詰まった | https://note.com/morodomi/n/n1e8e3ade18ea | - | - | - |
+| 2026-08-25 | Bref 3移行でLambdaが250MB超過と全ページ500。upgrade guideに無い2つの罠 | https://note.com/morodomi/n/n46c4f0994299 | - | - | - |
+| 2026-08-04 | CLAUDE.mdに思想を書いてもAIは守らない。開発哲学は仕組みに埋める | https://note.com/morodomi/n/nc30de34d8222 | - | - | - |
+| 2026-07-17 | 10歳への月1授業、第2回「失敗と挑戦」。ギターで返ってきた言葉 | https://note.com/morodomi/n/nf484e14421d7 | - | - | - |
+| 2026-07-03 | 要件定義書は読まれない。AIにmockを作らせたら打ち合わせが変わった | https://note.com/morodomi/n/ncacd923c433b | - | - | - |
+| 2026-06-15 | Next.js 16でCSPをnonce化する前に知りたい、Tailwindとhydrationの罠 | https://note.com/morodomi/n/n6f9847f34dc2 | - | - | - |
 | 2026-06-15 | 10歳の息子に、月1回の授業を始めた。初回「自律と恥」をやってみた | https://note.com/morodomi/n/nb7659251c4a1 | - | - | - |
 | 2026-06-11 | エンジニアに盾はない。1万時間でコードを書いた後のキャリア戦略 | https://note.com/morodomi/n/n538fec2eb2f9 | - | - | - |
 | 2026-04-13 | AIが来たら、Waterfallが戻ってきた（と思ったらAgileだった） | https://note.com/morodomi/n/n4f116f0b5325 | - | - | - |
