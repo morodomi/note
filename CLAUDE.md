@@ -51,6 +51,8 @@ CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 → Agent Teams、それ以外 → 並行
 
 | 日付 | タイトル | URL | PV | スキ | 記録日 |
 |------|---------|-----|----|------|--------|
+| 2026-10-05 | Claude Codeのpython書き戻しをhookで止めた。3万件のログで範囲を決めた | https://note.com/morodomi/n/n3c81dc2e9c94 | - | - | - |
+| 2026-09-04 | Playwrightのログインが壊れた。React化でidがuseIdになる罠 | draft | - | - | - |
 | 2026-08-27 | 「面倒くさい」はやめる理由になるか。10歳への月1授業で、親のほうが詰まった | https://note.com/morodomi/n/n1e8e3ade18ea | - | - | - |
 | 2026-08-25 | Bref 3移行でLambdaが250MB超過と全ページ500。upgrade guideに無い2つの罠 | https://note.com/morodomi/n/n46c4f0994299 | - | - | - |
 | 2026-08-04 | CLAUDE.mdに思想を書いてもAIは守らない。開発哲学は仕組みに埋める | https://note.com/morodomi/n/nc30de34d8222 | - | - | - |
